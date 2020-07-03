@@ -1,0 +1,204 @@
+{
+    "intents": [
+
+        {
+            "intent": "WhatisCovid",
+            "values": [
+                "A novel coronavirus is a new coronavirus that has not been previously identified. The virus causing coronavirus disease 2019 (COVID-19), is not the same as the coronaviruses that commonly circulate among humans and cause mild illness, like the common cold. A diagnosis with coronavirus 229E, NL63, OC43, or HKU1 is not the same as a COVID-19 diagnosis. Patients with COVID-19 will be evaluated and cared for differently than patients with common coronavirus diagnosis."
+            ],
+            "que": "What is Covid?"
+        },
+
+        {
+            "intent": "Whythename",
+            "values": [
+                "On February 11, 2020 the World Health Organization announced an official name for the disease that is causing the 2019 novel coronavirus outbreak, first identified in Wuhan China. The new name of this disease is coronavirus disease 2019, abbreviated as COVID-19. In COVID-19, ‘CO’ stands for ‘corona,’ ‘VI’ for ‘virus,’ and ‘D’ for disease. Formerly, this disease was referred to as “2019 novel coronavirus” or “2019-nCoV”. There are many types of human coronaviruses including some that commonly cause mild upper-respiratory tract illnesses. COVID-19 is a new disease, caused be a novel (or new) coronavirus that has not previously been seen in humans. The name of this disease was selected following the World Health Organization (WHO) best practice for naming of new human infectious diseases."
+            ],
+            "que": "Why the name COVID-19?"
+        },
+
+        {
+            "intent": "Wherediditstart",
+            "values": [
+                "Coronaviruses are a large family of viruses. Some cause illness in people, and others, such as canine and feline coronaviruses, only infect animals. Rarely, animal coronaviruses that infect animals have emerged to infect people and can spread between people. This is suspected to have occurred for the virus that causes COVID-19. Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS) are two other examples of coronaviruses that originated from animals and then spread to people. More information about the source and spread of COVID-19 ask this chatbot how does the virus spread."
+            ],
+            "que": "Where did the virus start?"
+        },
+
+        {
+            "intent": "symptoms",
+            "values": [
+                "Current symptoms reported for patients with COVID-19 have included Fever or chills, Cough, Shortness of breath or difficulty breathing, Fatigue, Muscle or body aches, Headache, New loss of taste or smell, Sore throat, Congestion or runny nose, Nausea or vomiting, Diarrhea."
+            ],
+            "que": "What are the symptoms?"
+        },
+
+        {
+            "intent": "spread",
+            "values": [
+                "This virus was first detected in Wuhan City, Hubei Province, China. The first infections were linked to a live animal market, but the virus is now spreading from person-to-person. It’s important to note that person-to-person spread can happen on a continuum. Some viruses are highly contagious (like measles), while other viruses are less so. The virus that causes COVID-19 seems to be spreading easily and sustainably in the community (“community spread”) in some affected geographic areas. Community spread means people have been infected with the virus in an area, including some who are not sure how or where they became infected."
+            ],
+            "que": "How did it spread?"
+        },
+
+        {
+            "intent": "precautions",
+            "values": [
+                "To prevent infection and to slow transmission of COVID-19, do the following : Wash your hands regularly with soap and water, or clean them with alcohol-based hand rub. Maintain at least 1 metre distance between you and people coughing or sneezing. Avoid touching your face. Cover your mouth and nose when coughing or sneezing. Stay home if you feel unwell. Refrain from smoking and other activities that weaken the lungs. Practice physical distancing by avoiding unnecessary travel and staying away from large groups of people."
+            ],
+            "que": "What are the precautions?"
+        },
+
+        {
+            "intent": "CommunitySpread",
+            "values": [
+                "Community spread means people have been infected with the virus in an area, including some who are not sure how or where they became infected."
+            ],
+            "que": "What is CommunitySpread?"
+        },
+
+        {
+            "intent": "Testing",
+            "values": [
+                "If you develop symptoms such as fever, cough, and/or difficulty breathing, and have been in close contact with a person known to have COVID-19 or have recently traveled from an area with ongoing spread of COVID-19, stay home and call your healthcare provider. Older patients and individuals who have severe underlying medical conditions or are immuno compromised should contact their healthcare provider early, even if their illness is mild. If you have severe symptoms, such as persistent pain or pressure in the chest, new confusion or inability to arouse, or bluish lips of face, contact your healthcare provider or emergency room and seek care immediately. Your doctor will determine if you have signs and symptoms of COVID-19 and whether you should be tested."
+            ],
+            "que": "When should we be tested?"
+        },
+
+        {
+            "intent": "NegativeTestResults",
+            "values": [
+                "Using the CDC-developed diagnostic test, a negative result means that the virus that causes COVID-19 was not found in the person’s sample. In the early stages of infection, it is possible the virus will not be detected. For COVID-19, a negative test result for a sample collected while a person has symptoms likely means that the COVID-19 virus is not causing their current illness."
+            ],
+            "que": "What is Negative test results?"
+        },
+
+        {
+            "intent": "CDC_Response",
+            "values": [
+                "CDC means Centers for Disease Control and Prevention. This is an emerging, rapidly evolving situation and CDC will continue to provide updated information as it becomes available. CDC works 24/7 to protect people’s health.  For CDC guidance please visit: https://www.cdc.gov/coronavirus/2019-nCoV/index.html"
+            ],
+            "que": "What is CDC & CDC Response?"
+        },
+
+        {
+            "intent": "RiskToChildren",
+            "values": [
+                "Based on available evidence, children do not appear to be at higher risk for COVID-19 than adults. While some children and infants have been sick with COVID-19, adults make up most of the known cases to date. You can learn more about who is most at risk for health problems if they have COVID-19 infection on CDC’s current Risk Assessment page."
+            ],
+            "que": "How will it effect children?"
+        },
+
+        {
+            "intent": "HandwashingTips",
+            "values": [
+                "Hand washing is one of the best ways to protect yourself and your family from getting sick. Wash your hands often with soap and water for at least 20 seconds, especially after blowing your nose, coughing, or sneezing; going to the bathroom; and before eating or preparing food. If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60% alcohol."
+            ],
+            "que": "What are the tips to wash your hands?"
+        },
+
+        {
+            "intent": "DataSource",
+            "values": [
+                "This bot is populated with data sourced from the following resources:\n\nMost static responses provide information found on the CDC's Covid FAQ Page: https://www.cdc.gov/coronavirus/2019-ncov/faq.html\n\nDynamic infection and death counts are sourced from Johns Hopkins University via the following API: https://www.covid19api.com/\n\nDynamic news stories are sourced from Watson Discovery's news feed. Additional information on that service can be found here: https://www.ibm.com/watson/services/discovery-news/"
+            ],
+            "que": "What is the current news on COVID-19?"
+        },
+
+        {
+            "intent": "DisinfectingSurfaces",
+            "values": [
+                "Clean and disinfect frequently touched surfaces such as tables, doorknobs, light switches, countertops, handles, desks, phones, keyboards, toilets, faucets, and sinks. If surfaces are dirty, clean them using detergent or soap and water prior to disinfection. To disinfect, most common EPA-registered household disinfectants will work."
+            ],
+            "que": "What are the Disinfecting Surfaces?"
+        },
+
+        {
+            "intent": "ReduceFamilyRisk",
+            "values": [
+                "Practice everyday preventive actions to help reduce your risk of getting sick and remind everyone in your home to do the same. These actions are especially important for older adults and people who have severe chronic medical conditions: Avoid close contact with people who are sick. Cover your coughs and sneezes with a tissue and throw the tissue in the trash. Wash your hands often with soap and water for at least 20 seconds, especially after blowing your nose, coughing, or sneezing; going to the bathroom; and before eating or preparing food. If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60% alcohol. Always wash hands with soap and water if hands are visibly dirty. Clean and disinfect frequently touched surfaces and objects (e.g., tables, countertops, light switches, doorknobs, and cabinet handles)."
+            ],
+            "que": "How to reduce family risk?"
+        },
+
+        {
+            "intent": "AnimalContact",
+            "values": [
+                "You should restrict contact with pets and other animals while you are sick with COVID-19, just like you would around other people. Although there have not been reports of pets or other animals becoming sick with COVID-19, it is still recommended that people sick with COVID-19 limit contact with animals until more information is known about the virus. When possible, have another member of your household care for your animals while you are sick. If you are sick with COVID-19, avoid contact with your pet, including petting, snuggling, being kissed or licked, and sharing food. If you must care for your pet or be around animals while you are sick, wash your hands before and after you interact with pets and wear a face mask."
+            ],
+            "que": "What is the effect on animal contact?"
+        },
+
+        {
+            "intent": "RiskToPets",
+            "values": [
+                "While this virus seems to have emerged from an animal source, it is now spreading from person-to-person. There is no reason to think that any animals including pets in the United States might be a source of infection with this new coronavirus. To date, CDC has not received any reports of pets or other animals becoming sick with COVID-19. At this time, there is no evidence that companion animals including pets can spread COVID-19. However, since animals can spread other diseases to people, it’s always a good idea to wash your hands after being around animals."
+            ],
+            "que": "What is the risk to pets?"
+        },
+
+        {
+            "intent": "MealsForStudents",
+            "values": [
+                "Check with your school on plans to continue meal services during the school dismissal. Many schools are keeping school facilities open to allow families to pick up meals or are providing grab-and-go meals at a central location."
+            ],
+            "que": "What should children eat?"
+        },
+
+        {
+            "intent": "PrepareFamily",
+            "values": [
+                "Create a household plan of action to help protect your health and the health of those you care about in the event of an outbreak of COVID-19 in your community: Talk with the people who need to be included in your plan, and discuss what to do if a COVID-19 outbreak occurs in your community Plan ways to care for those who might be at greater risk for serious complications, particularly older adults and those with severe chronic medical conditions like heart, lung or kidney disease. Make sure they have access to several weeks of medications and supplies in case you need to stay home for prolonged periods of time. Get to know your neighbors and find out if your neighborhood has a website or social media page to stay connected. Create a list of local organizations that you and your household can contact in the event you need access to information, healthcare services, support, and resources. Create an emergency contact list of family, friends, neighbors, carpool drivers, health care providers, teachers, employers, the local public health department, and other community resources."
+            ],
+            "que": "How to prepare family to reduce risk?"
+        },
+
+        {
+            "intent": "spreadviafood",
+            "values": [
+                "Coronaviruses are generally thought to be spread from person-to-person through respiratory droplets. Currently there is no evidence to support transmission of COVID-19 associated with food. Before preparing or eating food it is important to always wash your hands with soap and water for 20 seconds for general food safety. Throughout the day wash your hands after blowing your nose, coughing or sneezing, or going to the bathroom. In general, because of poor survivability of these coronaviruses on surfaces, there is likely very low risk of spread from food products or packaging that are shipped over a period of days or weeks at ambient, refrigerated, or frozen temperatures.  "
+            ],
+            "que": "How will it spread via food?"
+        },
+
+        {
+            "intent": "ProductsFromChina",
+            "values": [
+                "There is still a lot that is unknown about the newly emerged COVID-19 and how it spreads. Two other coronaviruses have emerged previously to cause severe illness in people (MERS-CoV and SARS-CoV). The virus that causes COVID-19 is more genetically related to SARS-CoV than MERS-CoV, but both are betacoronaviruses with their origins in bats. While we don’t know for sure that this virus will behave the same way as SARS-CoV and MERS-CoV, we can use the information gained from both of these earlier coronaviruses to guide us. In general, because of poor survivability of these coronaviruses on surfaces, there is likely very low risk of spread from products or packaging that are shipped over a period of days or weeks at ambient temperatures. Coronaviruses are generally thought to be spread most often by respiratory droplets. Currently there is no evidence to support transmission of COVID-19 associated with imported goods and there have not been any cases of COVID-19 in the United States associated with imported goods. Information will be provided on the Coronavirus Disease 2019 (COVID-19) website as it becomes available."
+            ],
+            "que": "Will the products from china lead to virus?"
+        },
+        {
+            "intent": "Wearingfacemasks",
+            "values": [
+                "CDC does not recommend that people who are well wear a facemask to protect themselves from respiratory illnesses, including COVID-19. You should only wear a mask if a healthcare professional recommends it. A facemask should be used by people who have COVID-19 and are showing symptoms. This is to protect others from the risk of getting infected. The use of facemasks also is crucial for health workers and other people who are taking care of someone infected with COVID-19 in close settings (at home or in a health care facility)."
+            ],
+            "que": "Is it necessary to wear facemask?"
+        },
+
+        {
+            "intent": "InfectedFamilyMember",
+            "values": [
+                "Most people who get COVID-19 will be able to recover at home. CDC has directions for people who are recovering at home and their caregivers, including: Stay home when you are sick, except to get medical care. If you develop emergency warning signs for COVID-19 get medical attention immediately . Emergency warning signs include: Trouble breathing, Persistent pain or pressure in the chest, New confusion or inability to arouse, Bluish lips or face.  This list is not all inclusive. Please consult your medical provider for any other symptoms that are severe or concerning. Use a separate room and bathroom for sick household members (if possible). Clean hands regularly by hand washing with soap and water or using an alcohol-based hand sanitizer with at least 60% alcohol. Provide your sick household member with clean disposable face masks to wear at home, if available, to help prevent spreading COVID-19 to others. Clean the sick room and bathroom , as needed, to avoid unnecessary contact with the sick person. Avoid sharing personal items like utensils, food, and drinks."
+            ],
+            "que": "What to do when someone is infected?"
+        },
+
+        {
+            "intent": "HigherRiskPopulations",
+            "values": [
+                "Older adults and people of any age who have serious underlying medical conditions may be at higher risk for more serious complications from COVID-19. Based upon available information to date, those most at risk include People 65 years and older, People who live in a nursing home or long-term care facility, People of any age with the following underlying medical conditions, particularly those that are not well controlled, Chronic lung disease or asthma, Congestive heart failure or coronary artery disease, Diabetes, Neurological conditions that weaken ability to cough, Weakened immune system, Chemotherapy or radiation for cancer (currently or in recent past), Sickle cell anemia, Chronic kidney disease requiring dialysis, Cirrhosis of the liver, Lack of spleen or a spleen that doesn’t function correctly, Extreme obesity (body mass index [BMI] > 40), People who are pregnant."
+            ],
+            "que": "Who has more risk?"
+        },
+
+        {
+            "intent": "PersonToPerson",
+            "values": [
+                "The virus that causes COVID-19 is spreading from person-to-person . Someone who is actively sick with COVID-19 can spread the illness to others. That is why CDC recommends that these patients be isolated either in the hospital or at home (depending on how sick they are) until they are better and no longer pose a risk of infecting others. How long someone is actively sick can vary so the decision on when to release someone from isolation is made on a case-by-case basis in consultation with doctors, infection prevention and control experts, and public health officials and involves considering specifics of each situation including disease severity, illness signs and symptoms, and results of laboratory testing for that patient. Current CDC guidance for when it is OK to release someone from isolation is made on a case by case basis and includes meeting all of the following requirements: The patient is free from fever without the use of fever-reducing medications. The patient is no longer showing symptoms, including cough. The patient has tested negative on at least two consecutive respiratory specimens collected at least 24 hours apart. Someone who has been released from isolation is not considered to pose a risk of infection to others."
+            ],
+            "que": "How will it effect from person to person?"
+        }
+
+    ]
+}
