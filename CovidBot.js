@@ -6,7 +6,7 @@ Promise.config({
     cancellation: false
 });
 
-var token = '1140651497:AAF9uGTeUWbiNThbCDVSDfGjrxZa2q8WE9E';
+var token = '*****************';
 
 const bot = new TelegramBot(token, { polling: true });
 var x = '0'
